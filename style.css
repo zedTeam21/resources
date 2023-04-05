@@ -208,11 +208,11 @@
 :root{
     --bg-color: #000
     --filename-color: rgb(0, 0, 0);
-    --footer-color: #fcc700;
+    --footer-color: #f62681;
     --footer-font-color: black;
     --footer-icon-color:var(--footer-font-color);
     --player-border-color: #d3e0ea;
-    --player-hover-color: var(--footer-color);
+    --player-hover-color: #f62681;
     --player-border-hover-color: #f62681;
     --plyr-color-main: #f62681;
     transition: 0.3s;
@@ -292,16 +292,14 @@ body.dark .toogle:before {
     display: flex;
     text-align: center;
     justify-content: center;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
 }
 #file-name.cyber {
     display: flex;
     justify-content: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
 }
 
 #file-name.dark {
